@@ -1,0 +1,130 @@
+.primary-overlay{
+    background: rgba(85, 25, 25, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.main-header{
+    background: url(../img/img1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    /* width: 50%; */
+    /* max-height: 40px; */
+    color: white;
+    position: relative;
+}
+
+body{
+    background: #367;
+}
+.card h5{
+    padding: 10px 0px;
+}
+.card{
+    transition: .5s;
+    background: #eee;
+}
+.card:hover i, h5{
+    color: #c2185b;
+}
+.card:hover{
+    transform: scale(1.03);
+    background: #fff;
+}
+
+/* footer */
+.footer{
+    background: #303036;
+    color: #d3d3d3;
+    height:  400px;
+    position: relative;
+}
+
+.footer .footer-content{
+    border: 1px solid red;
+    height: 350px;
+    display: flex;
+}
+
+.footer .footer-content .footer-section{
+    /* this will give equal horizontal space */
+    flex: 1;
+    padding: 25px;
+    border: 1px solid white;
+}
+
+.footer .footer-content h1,
+.footer .footer-content h1{
+    color: white;
+}
+
+.footer .footer-content .about h1 span{
+    color: #05f7ff;
+}
+
+.footer .footer-content .about .contact span{
+    display: block;
+    font-size: 1.1em;
+    margin-top: 0px;
+}
+
+.footer .footer-content .about .socials a {
+    border: 1px solid grey;
+    width: 45px;
+    height: 41px;
+    padding-top: 5px;
+    margin-right: 5px;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.3em;
+    border-radius: 5px;
+}
+
+.footer .footer-content .links ul a {
+    display:  block;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    transition: all .3s;
+}
+
+.footer .footer-content .links ul a:hover{
+    color: white;
+    margin-left: 15px;
+    transition: all .3s;
+}
+
+.footer .footer-content .contact-form .contact-input{
+    background: #272727;
+    color: #bbeebb;
+    margin-bottom: 10px;
+    line-height: 1.5rem;
+    padding: 9.rem 1.4rem;
+    border: none;
+}
+
+.footer .footer-content .contact-form .contact-input:focus {
+    background: #1a1a1a;
+}
+
+.footer .footer-bottom{
+     background: #343a40;
+     color: #686868;
+     height: 50px;
+     width: 100%;
+     text-align: center;
+     position: absolute;
+     bottom: 0px;
+     left: 0px;
+     padding-top: 20px;
+}
+
+
+
+
+
+
